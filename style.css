@@ -1,0 +1,41 @@
+body{
+    font-family:roboto,sans-serif;
+    color:white;
+    font-weight: bold;
+}
+.user_list{
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    align-items:center;
+}
+
+.list_container
+{
+    padding:15px;
+    border-radius: 15px;
+    width:400px;
+    display:flex;
+    gap:10px;
+    background-color: rgba(156, 139, 101, 0.185);
+    border:2px solid rgb(19, 18, 18);
+     /* Created with https://www.css-gradient.com */
+background: #0132F7;
+background: -webkit-linear-gradient(top left, #0132F7, #FFFFFF);
+background: -moz-linear-gradient(top left, #0132F7, #FFFFFF);
+background: linear-gradient(to bottom right, #0132F7, #FFFFFF);
+}
+
+.pagination
+        {
+            display:flex;
+            flex-direction: row;
+            gap:10px;
+            margin:10px; 
+            justify-content: center;
+            
+        }
+
+    button{
+        background-color: rgba(83, 132, 189, 0.712);
+    }
